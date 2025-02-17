@@ -4,7 +4,7 @@ export default function BasicInfo() {
   return (
     <section id="basic-info">
       <div className="">
-        <img
+        <Image
           src="/images/profile-picture.svg"
           alt="Syeda Urwah Fatima"
           className="profile-picture"

@@ -21,7 +21,7 @@ export default function Skills() {
       <div className="skill-icons" style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "1rem", marginTop: "1rem" }}>
         {skills.map((skill) => (
           <div key={skill.name} className="skill" style={{ textAlign: "center" }}>
-            <img src={skill.icon} alt={`${skill.name} icon`} style={{ width: "50px", height: "50px" }} />
+            <Image src={skill.icon} alt={`${skill.name} icon`} style={{ width: "50px", height: "50px" }} />
             <span>{skill.name}</span>
           </div>
         ))}

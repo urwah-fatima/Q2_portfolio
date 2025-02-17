@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function Projects() {
   const projects = [
@@ -35,7 +36,7 @@ export default function Projects() {
       <div className="projects-container">
         {projects.map((project) => (
           <div className="project-card" key={project.title}>
-            <img src={project.image} alt={project.title} className="project-image" />
+            <Image src={project.image} alt={project.title} className="project-image" />
             <div className="project-details">
               <h3>{project.title}</h3>
               <p>{project.description}</p>
